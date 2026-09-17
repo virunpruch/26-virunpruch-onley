@@ -6,6 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-s1 = int(input())
-s2 = int(input())
-s3 = int(input())
+s1 = int(input("คะแนนวิชาที่1 : "))
+s2 = int(input("คะแนนวิชาที่2 : "))
+s3 = int(input("คะแนนวิชาที่3 : "))
+total = s1+s2+s3
+a = total/3
+print("คะแนนเฉลี่ย :",a)
