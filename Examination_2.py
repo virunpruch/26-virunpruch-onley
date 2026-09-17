@@ -6,7 +6,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-height = int(input("ส่วนสูง : "))
+height = int(input("ความสูงซม. : "))
 if height>140 :
     print("Can Ride")
 else :
